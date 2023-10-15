@@ -1,9 +1,0 @@
-int mutex_trylock(struct mutex *lock);
-
-Tries to acquire the given mutex
-
-Return:
-
-	1	--> Successful
-	0	--> Otherwise
-
